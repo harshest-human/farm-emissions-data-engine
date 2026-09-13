@@ -1,0 +1,14 @@
+{
+  "farm_id": "synthetic-farm-001",
+  "building_id": "barn-a",
+  "timezone": "Europe/Berlin",
+  "species": "cattle",
+  "animal_category": "dairy_cow",
+  "animal_count": 120,
+  "housing_system": "free_stall",
+  "ventilation_type": "natural",
+  "floor_type": "slatted_with_slurry_channel",
+  "manure_system": "liquid_slurry",
+  "data_owner": "synthetic-example",
+  "provenance_note": "Public synthetic fixture; not an observed farm."
+}

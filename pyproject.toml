@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "livestock-sensor-data-pipeline"
+version = "0.1.0"
+description = "Provenance-preserving livestock sensor and farm data harmonisation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Harsh Sahu" }]
+keywords = ["agriculture", "livestock", "sensor-data", "KTBL", "BEK", "provenance"]
+
+[project.scripts]
+livestock-data = "livestock_data.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

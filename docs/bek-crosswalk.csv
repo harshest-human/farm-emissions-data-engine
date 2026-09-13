@@ -1,0 +1,9 @@
+domain,required_information,public_method_status,pipeline_role,direct_or_derived,source
+feed,quantity composition origin and product carbon footprint,BEK Sachbilanz Tierhaltung 2026,activity-data export,direct_or_precalculated,https://www.ktbl.de/themen/bek
+animals,number and live weight,BEK Sachbilanz Tierhaltung 2026,validated metadata,direct,https://www.ktbl.de/themen/bek
+housing,housing or pasture system and duration,BEK Sachbilanz Tierhaltung 2026,validated metadata,direct,https://www.ktbl.de/themen/bek
+manure,excretion or manure type and management,BEK Sachbilanz Tierhaltung 2026,metadata plus laboratory evidence,direct_and_derived,https://www.ktbl.de/themen/bek
+energy,electricity and energy quantity source and origin,BEK Sachbilanz Tierhaltung 2026,activity-data export,direct,https://www.ktbl.de/themen/bek
+sensor_concentration,gas concentration time series,not identified as generic direct BEK input,QA evidence and derived emission input,derived,https://www.ktbl.de/themen/bek
+weather,meteorological observations,not identified as generic direct BEK input,QA covariate or model input,context_dependent,https://www.ktbl.de/themen/bek
+barn_climate,indoor environment and ventilation state,not identified as generic direct BEK input,QA covariate or measured-emission input,context_dependent,https://www.ktbl.de/themen/bek

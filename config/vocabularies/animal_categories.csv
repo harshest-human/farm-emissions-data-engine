@@ -1,0 +1,9 @@
+code,label_en,species,classification_role,source_status,source_url,version_date
+dairy_cow,Dairy cow,cattle,BEK-oriented activity category,project_defined_crosswalk,https://www.ktbl.de/themen/bek,2026-02-05
+other_cattle,Other cattle,cattle,BEK-oriented activity category,project_defined_crosswalk,https://www.ktbl.de/themen/bek,2026-02-05
+fattening_pig,Fattening pig,pig,BEK-oriented activity category,project_defined_crosswalk,https://www.ktbl.de/themen/bek,2026-02-05
+sow,Sow,pig,BEK-oriented activity category,project_defined_crosswalk,https://www.ktbl.de/themen/bek,2026-02-05
+piglet,Piglet,pig,BEK-oriented activity category,project_defined_crosswalk,https://www.ktbl.de/themen/bek,2026-02-05
+broiler,Broiler,chicken,housing-classification extension,separate_ktbl_resource,https://www.ktbl.de/themen/nationaler-bewertungsrahmen-tierhaltung/nbr-huhn,2026-09-14
+laying_hen,Laying hen,chicken,housing-classification extension,separate_ktbl_resource,https://www.ktbl.de/themen/nationaler-bewertungsrahmen-tierhaltung/nbr-huhn,2026-09-14
+turkey,Turkey,turkey,housing-classification extension,separate_ktbl_resource,https://www.ktbl.de/webanwendungen/inkalktier,2026-09-14

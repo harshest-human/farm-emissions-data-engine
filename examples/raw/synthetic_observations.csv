@@ -1,0 +1,6 @@
+timestamp,source_id,variable,value,unit
+2026-01-15T10:00:00+01:00,ftir-01,ch4,28.4,ppm
+2026-01-15T10:00:00+01:00,weather-01,temperature,4.8,degC
+2026-01-15T10:00:00+01:00,weather-01,relative_humidity,82.0,%
+2026-01-15T10:00:00+01:00,anemometer-01,wind_speed,2.7,m/s
+2026-01-15T10:05:00+01:00,ftir-01,ch4,0,ppm

@@ -1,0 +1,13 @@
+artifacts/
+*.parquet
+*.pyc
+__pycache__/
+.venv/
+.Rhistory
+.Rproj.user/
+.env
+*.key
+*.pem
+data/private/
+data/raw/
+!examples/raw/

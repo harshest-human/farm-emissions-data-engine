@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/livestock-data/site.schema.json",
+  "title": "Livestock site and housing metadata",
+  "type": "object",
+  "required": ["farm_id", "building_id", "timezone", "species", "animal_category", "housing_system"],
+  "properties": {
+    "farm_id": {"type": "string", "minLength": 1},
+    "building_id": {"type": "string", "minLength": 1},
+    "timezone": {"type": "string", "minLength": 1},
+    "species": {"enum": ["cattle", "pig", "chicken", "turkey", "other"]},
+    "animal_category": {"type": "string", "minLength": 1},
+    "animal_count": {"type": "number", "minimum": 0},
+    "housing_system": {"type": "string", "minLength": 1},
+    "ventilation_type": {"enum": ["natural", "mechanical", "hybrid", "open", "unknown"]},
+    "floor_type": {"type": "string"},
+    "manure_system": {"type": "string"},
+    "data_owner": {"type": "string"},
+    "provenance_note": {"type": "string"}
+  },
+  "additionalProperties": true
+}

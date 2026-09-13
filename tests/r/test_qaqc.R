@@ -1,0 +1,8 @@
+source("R/qaqc.R")
+data <- data.frame(timestamp="2026-01-15T10:00:00+01:00", source_id="a", variable="ch4", value=0, unit="ppm")
+result <- flag_observations(data)
+stopifnot(result$qa_flag[[1]] == "zero_concentration")
+stopifnot(result$value_original[[1]] == 0)
+result <- apply_response_window(result, 30, 120)
+stopifnot(result$response_seconds[[1]] == 30)
+cat("R QA tests passed\n")
