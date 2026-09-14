@@ -59,6 +59,24 @@ main { overflow: hidden; }
 .system-list p { margin: 0; padding: 1.4rem 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 4rem 1fr; font-size: 1.35rem; font-weight: 600; }
 .system-list span { color: var(--muted); font-size: .8rem; }
 .system-list small { grid-column: 2; color: var(--muted); font-size: .85rem; font-weight: 400; }
+.notes { grid-template-columns: 1fr 4.2fr; background: #ece8dd; }
+.notes-body { max-width: 76rem; }
+.kicker { margin: 0 0 1.5rem; max-width: 63rem; font-family: "Newsreader", serif; font-size: clamp(2.8rem, 5vw, 5rem); line-height: .96; letter-spacing: -.04em; }
+.repo-stories { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; margin: 4rem 0; border: 1px solid var(--ink); background: var(--ink); }
+.repo-stories article { display: flex; min-height: 26rem; flex-direction: column; padding: 2.4rem; background: var(--paper); }
+.repo-stories article:first-child { background: var(--blue); color: white; }
+.repo-stories h3, .market-gap h3, .photo-journal h3 { margin: 1rem 0; font-family: "Newsreader", serif; font-size: clamp(2rem, 3vw, 3.2rem); font-weight: 500; line-height: 1; }
+.repo-stories a { margin-top: auto; padding-top: 1.25rem; border-top: 1px solid currentColor; font-weight: 700; text-decoration: none; }
+.market-gap { display: grid; grid-template-columns: 1fr 2fr; gap: 3rem; padding: 3rem 0; border-block: 1px solid var(--line); }
+.market-gap ul { margin: 0; padding: 0; list-style: none; }
+.market-gap li { padding: 0 0 1rem 1.3rem; border-bottom: 1px solid var(--line); }
+.market-gap li::before { content: "↳"; display: inline-block; width: 1.3rem; margin-left: -1.3rem; color: var(--blue); }
+.network-note { display: grid; grid-template-columns: 1fr 4fr; gap: 2rem; margin: 3rem 0; padding: 2rem; background: var(--ink); color: white; }
+.network-note span { color: var(--signal); text-transform: uppercase; letter-spacing: .14em; font-size: .72rem; font-weight: 700; }
+.network-note p { margin: 0; font-family: "Newsreader", serif; font-size: clamp(1.4rem, 2.5vw, 2.2rem); line-height: 1.1; }
+.photo-journal { padding: 4rem; background: var(--signal); }
+.photo-journal p { max-width: 50rem; }
+.photo-journal span { display: inline-block; margin-top: 2rem; padding-top: .8rem; border-top: 1px solid var(--ink); font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
 .closing { padding: 8vw 7vw; background: var(--signal); }
 .closing h2 { max-width: 72rem; }
 .links { display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 4rem; }
@@ -74,6 +92,8 @@ footer { display: flex; justify-content: space-between; padding: 1.5rem 7vw; bac
   .evidence { grid-template-areas: "label" "intro" "scale" "frameworks" "note"; }
   .portrait-slot { min-height: 18rem; }
   .feature { min-height: 30rem; padding: 2rem; }
+  .repo-stories, .market-gap, .network-note { grid-template-columns: 1fr; }
+  .photo-journal { padding: 2rem; }
 }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
