@@ -1,8 +1,8 @@
-# Livestock Sensor Data Pipeline
+# Farm Emissions Data Engine
 
 **Reproducible R and Python workflows from multimodal farm observations to calculation-ready livestock datasets.**
 
-[![CI](https://github.com/harshest-human/livestock-sensor-data-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/harshest-human/livestock-sensor-data-pipeline/actions/workflows/ci.yml)
+[![CI](https://github.com/harshest-human/farm-emissions-data-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/harshest-human/farm-emissions-data-engine/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg)](https://www.python.org/)
 [![R](https://img.shields.io/badge/R-QA%2FQC-276DC3.svg)](https://www.r-project.org/)

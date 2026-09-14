@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "If this software supports your research, please cite it using this metadata."
-title: "Livestock Sensor Data Pipeline"
+title: "Farm Emissions Data Engine"
 type: software
 authors:
   - family-names: Sahu
     given-names: Harsh
 version: 0.1.0
 date-released: 2026-09-14
-repository-code: "https://github.com/harshest-human/livestock-sensor-data-pipeline"
+repository-code: "https://github.com/harshest-human/farm-emissions-data-engine"
 license: Apache-2.0
 keywords:
   - livestock emissions

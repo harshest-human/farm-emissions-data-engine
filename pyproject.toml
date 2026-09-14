@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "livestock-sensor-data-pipeline"
+name = "farm-emissions-data-engine"
 version = "0.1.0"
 description = "Provenance-preserving livestock sensor and farm data harmonisation."
 readme = "README.md"
@@ -13,9 +13,9 @@ authors = [{ name = "Harsh Sahu" }]
 keywords = ["agriculture", "livestock", "sensor-data", "KTBL", "BEK", "provenance"]
 
 [project.urls]
-Homepage = "https://github.com/harshest-human/livestock-sensor-data-pipeline"
-Documentation = "https://github.com/harshest-human/livestock-sensor-data-pipeline#readme"
-Issues = "https://github.com/harshest-human/livestock-sensor-data-pipeline/issues"
+Homepage = "https://github.com/harshest-human/farm-emissions-data-engine"
+Documentation = "https://github.com/harshest-human/farm-emissions-data-engine#readme"
+Issues = "https://github.com/harshest-human/farm-emissions-data-engine/issues"
 
 [project.scripts]
 livestock-data = "livestock_data.cli:main"
