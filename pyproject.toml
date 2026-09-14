@@ -12,6 +12,11 @@ license = { text = "Apache-2.0" }
 authors = [{ name = "Harsh Sahu" }]
 keywords = ["agriculture", "livestock", "sensor-data", "KTBL", "BEK", "provenance"]
 
+[project.urls]
+Homepage = "https://github.com/harshest-human/livestock-sensor-data-pipeline"
+Documentation = "https://github.com/harshest-human/livestock-sensor-data-pipeline#readme"
+Issues = "https://github.com/harshest-human/livestock-sensor-data-pipeline/issues"
+
 [project.scripts]
 livestock-data = "livestock_data.cli:main"
 
