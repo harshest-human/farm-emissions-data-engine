@@ -3,180 +3,82 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Harsh Sahu — analytics, automation and livestock-emissions research from sensors to climate reporting.">
-  <title>Harsh Sahu | From sensors to climate evidence</title>
+  <meta name="description" content="Harsh Sahu — agricultural emissions, sensor systems and GHG data automation.">
+  <title>Harsh Sahu | Agricultural emissions & automation</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="masthead">
-    <a class="wordmark" href="#top">HS</a>
-    <nav aria-label="Primary navigation">
-      <a href="#story">Story</a>
-      <a href="#work">Work</a>
-      <a href="#evidence">Evidence</a>
-      <a href="#notes">Field notes</a>
-      <a href="https://github.com/harshest-human" rel="me">GitHub</a>
-    </nav>
+    <a class="wordmark" href="#top" aria-label="Harsh Sahu home">HS</a>
+    <nav aria-label="Primary navigation"><a href="#work">Work</a><a href="#stories">Stories</a><a href="#links">Links</a></nav>
   </header>
-
   <main id="top">
-    <section class="cover" aria-labelledby="cover-title">
-      <p class="issue">Research portfolio · 2026</p>
-      <h1 id="cover-title">From sensors<br>to climate evidence.</h1>
-      <p class="dek">I build measurement systems and reproducible data pipelines that turn livestock and farm observations into traceable environmental intelligence.</p>
-      <div class="identity">
-        <div>
-          <strong>Harsh Sahu</strong>
-          <span>Analytics-Automation Scientist · PhD Researcher</span>
-        </div>
-        <div>
-          <strong>Research context</strong>
-          <span>Leibniz ATB Potsdam · Freie Universität Berlin · EmiMod</span>
-        </div>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Analytics-Automation Scientist · PhD Researcher</p>
+        <h1>From barn air<br>to climate action.</h1>
+        <p class="standfirst">I turn agricultural measurements into evidence—for science, Scope 3 and a resilient farm-to-fork system.</p>
+        <div class="quick-links"><a href="https://github.com/harshest-human">GitHub ↗</a><a href="https://www.atb-potsdam.de/en/about-us/team/staff-members/person/harsh-sahu">ATB profile ↗</a></div>
+      </div>
+      <figure class="hero-image">
+        <img src="images/portrait.jpg" alt="Portrait of Harsh Sahu" fetchpriority="high">
+        <figcaption>Harsh Sahu · Potsdam / Berlin</figcaption>
+      </figure>
+    </section>
+    <section id="work" class="headline-strip" aria-label="Core expertise"><span>Livestock emissions</span><span>CH₄ · NH₃ · CO₂</span><span>FTIR · CRDS · PAS</span><span>IoT & automation</span><span>R · Python · APIs</span></section>
+    <section class="thesis">
+      <p class="section-no">01 / The gap</p>
+      <h2>Scope 3 needs better primary data.</h2>
+      <details>
+        <summary>How I help <span>+</span></summary>
+        <p>I connect farm activity, animals, housing, weather and continuous sensors to governed datasets with QA, metadata, uncertainty and provenance—ready to scale from barn and farm decisions to product footprints, value-chain reporting and national research.</p>
+      </details>
+      <div class="scale" aria-label="Scaling pathway"><b>Sensor</b><i>→</i><b>Barn</b><i>→</i><b>Farm</b><i>→</i><b>Scope 3</b><i>→</i><b>National</b></div>
+    </section>
+    <section class="projects">
+      <p class="section-no">02 / Open tools</p>
+      <div class="project-grid">
+        <a class="project blue" href="https://github.com/harshest-human/farm-emissions-data-engine"><span>Data foundation · R + Python</span><h2>Farm Emissions<br>Data Engine</h2><p>Raw sensor data → clean, traceable, KTBL-oriented datasets.</p><strong>View repository ↗</strong></a>
+        <a class="project acid" href="https://github.com/harshest-human/livestock-emissions-dmrv"><span>Digital MRV · Methane focus</span><h2>Livestock<br>Emissions dMRV</h2><p>Housing-level CH₄ evidence with sensor and laboratory inputs.</p><strong>View repository ↗</strong></a>
       </div>
     </section>
-
-    <section id="story" class="story grid-section">
-      <div class="section-label">01 · Story</div>
-      <article class="story-copy">
-        <p class="lead">My work follows one chain: safe food, healthy animals, reliable measurements and climate decisions that can be audited.</p>
-        <p>I began in dairy and food technology, testing milk and food products for trace contaminants and adulteration. An M.Sc. in Dairy Science at Kiel moved my attention upstream—to feed analytics, ruminant nutrition, precision livestock farming and the first sensor systems that connect animal, environment and production data.</p>
-        <p>That path led to my PhD at Leibniz ATB Potsdam and Freie Universität Berlin. I now work on the precision and scalability of emission measurements in livestock buildings: automated 24/7 monitoring, high-resolution data pipelines and methods that remain robust outside the laboratory.</p>
-        <p>My instrument experience spans LC-MS/MS and GC-MS/MS, FTIR, CRDS, TDLAS and PAS, together with miniaturised NDIR, electrochemical and MOS sensor platforms. I build the surrounding system too—SOPs, QA protocols, metadata, validation rules and reproducible analysis.</p>
-      </article>
-      <aside class="portrait-slot">
-        <span>Portfolio image</span>
-        <strong>Add portrait.jpg</strong>
-        <small>docs/images/portrait.jpg</small>
-      </aside>
-    </section>
-
-    <section id="work" class="work">
-      <div class="section-label">02 · Selected work</div>
-      <div class="feature-grid">
-        <article class="feature dark">
-          <p class="eyebrow">Field research</p>
-          <h2>Measure what the barn is really doing.</h2>
-          <p>Continuous gas, airflow, weather and barn-climate observations—designed around instrument behaviour, spatial variability and uncertainty.</p>
-          <div class="video-frame">
-            <iframe src="https://www.youtube-nocookie.com/embed/41Y6egqsQDI" title="Harsh Sahu livestock emissions research video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
-        </article>
-        <article class="feature light">
-          <p class="eyebrow">Sensor story</p>
-          <h2>Make precision scalable.</h2>
-          <p>High-end reference instruments establish confidence. Low-cost sensor networks extend observation across time, space and operating conditions.</p>
-          <a class="story-link" href="https://headlines-from-leibniz-labs.my.canva.site/story-sensors" target="_blank" rel="noopener">
-            Read the sensor story <span aria-hidden="true">↗</span>
-          </a>
-        </article>
+    <section id="stories" class="stories">
+      <p class="section-no">03 / Field notes · select a story</p>
+      <div class="story-grid">
+        <details class="story-card"><summary><img src="images/ramiran.jpg" alt="Harsh Sahu presenting livestock emissions research at RAMIRAN 2025" loading="lazy"><span class="story-title"><small>Science</small>Precision before scale.</span></summary><p>At RAMIRAN 2025: testing how sampling position changes reported CH₄, NH₃ and CO₂ in naturally ventilated barns.</p></details>
+        <details class="story-card"><summary><img src="images/gruene-woche.jpg" alt="Demonstrating low-cost environmental sensors at Grüne Woche 2025" loading="lazy"><span class="story-title"><small>Public impact</small>Sensors people can see.</span></summary><p>Demonstrating low-cost environmental sensing at Grüne Woche 2025 in Berlin—making invisible gases understandable.</p></details>
+        <details class="story-card"><summary><img src="images/eurotier.jpg" alt="Harsh Sahu representing ATB at EuroTier in Hannover" loading="lazy"><span class="story-title"><small>Industry</small>Research meets the market.</span></summary><p>Representing Leibniz ATB at EuroTier in Hannover and listening to the measurement problems industry needs solved.</p></details>
+        <details class="story-card"><summary><img src="images/wageningen-network.jpg" alt="ATB and Wageningen researchers meeting in Potsdam" loading="lazy"><span class="story-title"><small>Network</small>Methods cross borders.</span></summary><p>Hosting Dutch colleagues and discussing harmonised livestock-emission measurements across Germany and the Netherlands.</p></details>
+        <details class="story-card"><summary><img src="images/research-collage.jpg" alt="Collage of research presentations, field work and an emission measurement team" loading="lazy"><span class="story-title"><small>Leadership</small>Explain. Coordinate. Deliver.</span></summary><p>From field campaigns to conference stages: building teams around clear methods, rigorous QA and shared scientific purpose.</p></details>
       </div>
     </section>
-
-    <section id="evidence" class="evidence grid-section">
-      <div class="section-label">03 · Evidence automation</div>
-      <div class="evidence-intro">
-        <h2>One governed data chain.<br>Multiple reporting scales.</h2>
-        <p>I connect source data, calculation methods and versioned evidence so that environmental results can be traced from a farm observation to portfolio, value-chain or inventory summaries.</p>
-      </div>
-      <div class="scale" aria-label="Data scaling pathway">
-        <span>Sensor</span><b>→</b><span>Barn</span><b>→</b><span>Farm</span><b>→</b><span>Scope 3</span><b>→</b><span>National</span>
-      </div>
-      <div class="frameworks">
-        <article>
-          <h3>CSRD · ESRS E1</h3>
-          <p>Structured inputs, calculation lineage and evidence for gross Scope 1, 2 and significant Scope 3 GHG disclosures.</p>
-          <a href="https://eur-lex.europa.eu/eli/reg_del/2023/2772/2025-01-01/eng">Official standard ↗</a>
-        </article>
-        <article>
-          <h3>EU CRCF</h3>
-          <p>Traceable activity data for quantification, baselines, monitoring and sustainability evidence in carbon-farming workflows.</p>
-          <a href="https://climate.ec.europa.eu/eu-action/carbon-removals-and-carbon-farming_en">EU framework ↗</a>
-        </article>
-        <article>
-          <h3>SBTi · FLAG</h3>
-          <p>Farm and supplier data prepared for aggregation into agricultural value-chain inventories, targets and Scope 3 progress tracking.</p>
-          <a href="https://sciencebasedtargets.org/standards-and-guidance">Standards and guidance ↗</a>
-        </article>
-      </div>
-      <p class="qualification">These workflows support data preparation, traceability and reporting automation. They do not by themselves establish regulatory compliance, certification or target validation.</p>
-    </section>
-
-    <section class="systems">
-      <div class="section-label">04 · Systems</div>
-      <h2>Hardware literacy.<br>Software discipline.<br>Scientific judgement.</h2>
-      <div class="system-list">
-        <p><span>01</span>Reference analytics<br><small>LC-MS/MS · GC-MS/MS · FTIR · CRDS · TDLAS · PAS</small></p>
-        <p><span>02</span>Scalable sensing<br><small>NDIR · electrochemical · MOS · IoT networks</small></p>
-        <p><span>03</span>Data engineering<br><small>R · Python · QA/QC · metadata · APIs · provenance</small></p>
-        <p><span>04</span>Scientific leadership<br><small>Field teams · SOPs · training · international communication</small></p>
+    <section class="media">
+      <p class="section-no">04 / Watch</p>
+      <div class="media-grid">
+        <article class="video-card"><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/41Y6egqsQDI" title="Livestock emissions research with Harsh Sahu" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><h2>Inside the measurement work.</h2></article>
+        <a class="sensor-story" href="https://headlines-from-leibniz-labs.my.canva.site/story-sensors"><span>Interactive story</span><h2>Can low-cost sensors deliver reliable data?</h2><strong>Read the story ↗</strong></a>
       </div>
     </section>
-
-    <section id="notes" class="notes grid-section">
-      <div class="section-label">05 · Field notes</div>
-      <div class="notes-body">
-        <p class="kicker">The missing layer in Scope 3 is not another dashboard. It is trustworthy primary data.</p>
-        <p>Agricultural value chains still struggle to connect farm activity, animal, housing, weather and continuous sensor observations with calculation-ready evidence. Generic emission factors are useful, but they cannot always explain operational change, measurement uncertainty or the origin of a reported number. My work fills that gap: automate the journey from farm to fork and from raw observation to auditable GHG evidence—designed for CSRD and ESRS E1 data needs, SBTi and FLAG target workflows, EU carbon-farming methods and aggregation from a single barn to corporate Scope 3 or national inventories.</p>
-
-        <div class="repo-stories">
-          <article>
-            <p class="eyebrow">Open tool · Data foundation</p>
-            <h3>Farm Emissions Data Engine</h3>
-            <p>The evidence begins before the calculation. This R and Python pipeline turns multimodal farm data—from FTIR, CRDS and PAS analysers to weather, barn climate, animals, housing and management—into clean, machine-readable records with metadata, QA flags and provenance. It is built to make complex farm observations usable by KTBL-oriented calculations, APIs and other institutional workflows.</p>
-            <a href="https://github.com/harshest-human/farm-emissions-data-engine">Explore the repository ↗</a>
-          </article>
-          <article>
-            <p class="eyebrow">Open tool · Methane focus</p>
-            <h3>Livestock Emissions dMRV</h3>
-            <p>This reproducible Python prototype explores digital measurement, reporting and verification for housing-level methane. It combines sensor-informed emission estimates with laboratory manure data while keeping assumptions and limitations visible. The longer-term idea is an API-ready evidence chain that can support credible agricultural GHG accounting without pretending that software alone provides compliance or verification.</p>
-            <a href="https://github.com/harshest-human/livestock-emissions-dmrv">Explore the repository ↗</a>
-          </article>
-        </div>
-
-        <div class="market-gap">
-          <h3>Where I can create value</h3>
-          <ul>
-            <li><strong>Primary Scope 3 data:</strong> move beyond static averages toward supplier- and farm-informed evidence.</li>
-            <li><strong>Audit trail by design:</strong> preserve methods, versions, metadata, QA decisions and uncertainty for scrutiny by independent assurance and verification bodies such as SGS, TÜV organisations or appropriately DAkkS-accredited bodies.</li>
-            <li><strong>One chain, many scales:</strong> reuse governed observations across farm decisions, product footprints, corporate reporting and national research.</li>
-            <li><strong>Domain translation:</strong> connect livestock science, analytical instruments, IoT engineering, data automation and regulatory language.</li>
-          </ul>
-        </div>
-
-        <aside class="network-note">
-          <span>Network</span>
-          <p>My collaborations connect farms, laboratories, engineers and emission researchers within Germany and across the European agricultural-engineering community—through Kiel, Berlin, Potsdam, Leibniz ATB, Freie Universität Berlin, EmiMod and EurAgEng.</p>
-        </aside>
-
-        <div class="photo-journal">
-          <p class="eyebrow">An evolving professional journal</p>
-          <h3>Every photo tells a story.</h3>
-          <p>Field campaigns, instruments, people, conference stages and difficult measurements: future posts will pair one image with one concise lesson from a professional life spent trying to turn agricultural research into practical impact.</p>
-          <span>Next: add the Word photo-and-caption source file</span>
-        </div>
-
-        <p class="qualification">This portfolio describes tools for data preparation, traceability and assurance readiness. Independent assurance, validation, verification, certification and accreditation remain the responsibility of competent authorised bodies and depend on the applicable framework and scope.</p>
+    <section class="evidence">
+      <p class="section-no">05 / Reporting</p>
+      <h2>Evidence ready for scrutiny.</h2>
+      <div class="keyword-grid">
+        <details><summary>CSRD · ESRS E1 <span>+</span></summary><p>Traceable inputs and calculation lineage for material GHG disclosures.</p></details>
+        <details><summary>SBTi · FLAG <span>+</span></summary><p>Farm and supplier evidence for agricultural value-chain targets and Scope 3 progress.</p></details>
+        <details><summary>EU CRCF <span>+</span></summary><p>Activity data for baselines, quantification, monitoring and carbon-farming evidence.</p></details>
+        <details><summary>Assurance-ready <span>+</span></summary><p>Methods, versions, QA decisions and uncertainty prepared for independent scrutiny by SGS, TÜV organisations or appropriately DAkkS-accredited bodies.</p></details>
       </div>
+      <p class="fine-print">Tools support traceability and reporting automation; they do not themselves confer compliance, certification or verification.</p>
     </section>
-
-    <section class="closing">
-      <p>Chair, EurAgEng Young Professionals Network</p>
-      <h2>I am looking for the next difficult measurement problem—where analytical hardware, automation and sustainable agriculture meet.</h2>
-      <div class="links">
-        <a href="https://github.com/harshest-human">GitHub</a>
-        <a href="https://www.atb-potsdam.de/en/about-us/team/staff-members/person/harsh-sahu">ATB profile</a>
-        <a href="https://github.com/harshest-human/farm-emissions-data-engine">Farm Emissions Data Engine</a>
-      </div>
+    <section id="links" class="closing">
+      <p>Leibniz ATB · Freie Universität Berlin · EmiMod · EurAgEng YPN</p>
+      <h2>Measure well.<br>Automate responsibly.<br>Make an impact.</h2>
+      <div class="quick-links"><a href="https://github.com/harshest-human">All GitHub work ↗</a><a href="https://www.atb-potsdam.de/en/research/research-programs/en-integriertes-reststoffmanagement/projects/project/projekt/emimod">EmiMod ↗</a></div>
     </section>
   </main>
-
-  <footer>
-    <span>Harsh Sahu</span>
-    <span>Independent research portfolio</span>
-  </footer>
+  <footer><span>Harsh Sahu</span><span>Agricultural emissions · Data automation</span></footer>
 </body>
 </html>
