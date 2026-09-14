@@ -6,6 +6,12 @@
 .media-grid figcaption { margin-top: .55rem; color: #666; font-size: .78rem; }
 .triptych { align-items: start; }
 .triptych img { height: auto; object-fit: contain; }
+.hello { display: block; max-width: 46rem; padding: 3.5rem 0; }
+.hello > div > p:not(.date):not(.small) { max-width: 42rem; }
+.path { padding: 3rem 0; }
+.post { padding: 3.5rem 0; }
+.journal-title { padding: 4rem 0 1.5rem; }
+.projects, .media { padding: 4rem 0; }
 
 @media (max-width: 650px) {
   .media-grid { grid-template-columns: 1fr; }
