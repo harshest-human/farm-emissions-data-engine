@@ -7,6 +7,8 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg)](https://www.python.org/)
 [![R](https://img.shields.io/badge/R-QA%2FQC-276DC3.svg)](https://www.r-project.org/)
 
+**Portfolio:** [From sensors to climate evidence](https://harshest-human.github.io/farm-emissions-data-engine/)
+
 This repository preserves provenance while ingesting, cleaning, harmonising and validating raw analyser, weather, barn-climate, animal, housing, management and site data. It produces machine-readable exports that can be mapped to the publicly documented input requirements of KTBL's *Berechnungsmethode für einzelbetriebliche Klimabilanzen* (BEK) and to other institutional calculation services.
 
 ## Research context and affiliation
