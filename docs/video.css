@@ -4,6 +4,8 @@
 .media-grid figure { margin: 0; }
 .media-grid .video { margin: 0; }
 .media-grid figcaption { margin-top: .55rem; color: #666; font-size: .78rem; }
+.triptych { align-items: start; }
+.triptych img { height: auto; object-fit: contain; }
 
 @media (max-width: 650px) {
   .media-grid { grid-template-columns: 1fr; }
